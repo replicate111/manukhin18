@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="manukhin18.MainPage">
+
+    <StackLayout>
+        <Button Text="Клик" Clicked="Button_Clicked" Margin="30" BackgroundColor="Orange" TextColor="Black" FontSize="Large"/>
+        <Label x:Name="lable" TextColor="Black" BackgroundColor="Orange" FontSize="Medium"/>
+    </StackLayout>
+
+</ContentPage>
